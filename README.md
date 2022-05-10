@@ -2,6 +2,7 @@
 Pipeline for reading FCD dynamic data and transforming it to .sim format.
 
 Structure:
+```
 .
 ├── code
 │   ├── ceda_file.py
@@ -21,7 +22,7 @@ Structure:
 │   ├── png
 │   └── shp
 └── README.md
-
+```
 
 Pipeline:
 
@@ -29,6 +30,8 @@ Pipeline:
 
 2. ceda_mapper.py -- reads map data, creates graph for mapping, iteratively maps FCD data onto realistic geometry
 
-3. optional - exporter.py -- outputs fcd data as a csv file of geometries with a list of attributes: times and speeds
+3. *optional - exporter.py -- outputs fcd data as a csv file of geometries with a list of attributes: times and speeds
 
 4. transform.py -- transforms (generates agents for each segment) mapped fcd data to .sim file 
+
+
